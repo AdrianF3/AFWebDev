@@ -9,11 +9,27 @@
   min-height: 500px;
 }
 
-#featureOne {
-  margin: 10%;
-  width: 80%;
-  height: 
+#featureOne, #featureTwo {
+  min-height: 200px;
+  margin: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 
+#featureSml {
+  background-color: red;
+  text-align: center;
 
+}
+
+#featureLrg {
+  background-color: blue;
+  text-align: center;
+
+}
+
+
+#header {
+  background-color: grey;
 }

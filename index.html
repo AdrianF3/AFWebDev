@@ -10,58 +10,79 @@
 </head>
 <body>
 
-  <div id="header">
-    <!-- HEADER MENU -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">AF | Web Dev</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- MENU ITEMS -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-  </div> <!-- END OF HEADER -->
+  <div class="container-fluid">
+  	<div id="header" class="row">
+  		<div class="col-md-12">
+  			<ul class="nav nav-pills">
+  				<li class="nav-item">
+  					<a class="nav-link" href="#">Home</a>
+  				</li>
+  				<li class="nav-item">
+  					<a class="nav-link" href="#">About</a>
+  				</li>
+  				<li class="nav-item">
+  					<a class="nav-link" href="#">Services</a>
+  				</li>
+  				<li class="nav-item">
+  					<a class="nav-link" href="#">Portfolio</a>
+  				</li>
+  				<li class="nav-item">
+  					<a class="nav-link" href="#">Contact</a>
+  				</li>
+  			</ul>
+  		</div>
+  	</div>
+    <!-- END OF HEADER -->
 
-  <div id="mainContent">
-    <div id="featureContent">
-      <div id="featureOne">
-        <p>featureOne</p>
-      </div>
-      <div id="featureTwo">
-        <p>featureTwo</p>
-      </div>
-    </div>
-    <div id="calloutContent">
-      <p>calloutContent</p>
-    </div>
-  </div>
+    <!-- MAIN CONTTENT -->
+  	<div class="row">
 
-  <div id="footer">
-    <div id="footerA">
-      <p>footerA</p>
-    </div>
-    <div id="footerB">
-      <p>footerB</p>
-    </div>
+  		<div class="col-md-12">
+  			<div id="featureOne" class="row">
+  				<div id="featureLrg" class="col-md-8">
+            <span class="badge badge-default">FEATURE ONEA</span>
+  				</div>
+  				<div id="featureSml" class="col-md-4">
+            <span class="badge badge-default">FEATURE ONEB</span>
+          </div>
+  			</div>
 
+  			<div id="featureTwo" class="row">
+  				<div id="featureSml" class="col-md-4">
+            <span class="badge badge-default">FEATURE TWOA</span>
+  				</div>
+  				<div id="featureLrg" class="col-md-8">
+            <span class="badge badge-default">FEATURE TWOB</span>
+  				</div>
+  			</div>
+
+  			<div class="jumbotron">
+  				<h2>
+  					CALLOUT
+  				</h2>
+  				<p>
+  					This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+  				</p>
+  				<p>
+  					<a class="btn btn-primary btn-large" href="#">Learn more</a>
+  				</p>
+  			</div>
+  		</div>
+  	</div>
+
+    <!-- FOOTER -->
+  	<div class="row">
+  		<div class="col-md-12">
+  			<div class="row">
+  				<div class="col-md-6">
+  					 <span class="badge badge-default">FOOTER A</span>
+  				</div>
+  				<div class="col-md-6">
+  					 <span class="badge badge-default">FOOTER B</span>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
   </div>
 
   <!-- Load jQuery, and BootStrap JS  -->
