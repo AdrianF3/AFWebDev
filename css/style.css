@@ -1,5 +1,5 @@
 
-#content {
+#mainContent {
 
   /* PULLED BACKGROUND FROM https://www.svgbackgrounds.com/#subtle-prism */
   background-color: #ffffff;
@@ -7,4 +7,13 @@
   background-attachment: inherit;
   background-size: cover;
   min-height: 500px;
+}
+
+#featureOne {
+  margin: 10%;
+  width: 80%;
+  height: 
+
+
+
 }
