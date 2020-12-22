@@ -1,5 +1,14 @@
 font-family: 'Piazzolla', serif;
 
+
+h2 {
+  text-align: center;
+}
+#headCen {
+  text-align: center;
+  padding: 15px;
+}
+
 #featureOne, #featureTwo {
   /* min-height: 200px;
   margin: 2px;
@@ -16,14 +25,20 @@ font-family: 'Piazzolla', serif;
 #featureSml {
   /* background-color: red; */
   text-align: center;
-  margin-top: 5%;
+  margin-top: auto;
 
 }
 
 #featureLrg {
   /* background-color: blue; */
   text-align: center;
+  /* margin-top: 2%; */
 
+}
+
+#featureSml li {
+  text-align: left;
+  padding: 3px;
 }
 
 
