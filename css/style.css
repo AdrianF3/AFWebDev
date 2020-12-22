@@ -1,9 +1,15 @@
+font-family: 'Piazzolla', serif;
 
 #featureOne, #featureTwo {
-  min-height: 200px;
+  /* min-height: 200px;
   margin: 2px;
   margin-left: 0px;
   margin-right: 0px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 2px;
+  background-color: blue; */
 }
 
 
@@ -21,8 +27,8 @@
 }
 
 
-#header {
-  /* background-color: grey; */
+#header a {
+  /* color: white; */
 }
 
 .boldText {
@@ -34,13 +40,10 @@
   text-align: center;
 }
 
-.pngIcon {
-  width: 70%;
-  height: auto;
-  padding: 15%;
-}
 
 .svgIcon {
-  width: 100%;
-  height: 80%;
+  width: 65%;
+  height: auto;
+  margin: 15%;
+  max-height: 300px;
 }

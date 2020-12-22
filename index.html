@@ -6,6 +6,9 @@
   <title>AF Web Dev | Adrian Fregoso</title>
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CUSTOM FONT -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,23 +16,44 @@
   <div class="container-fluid">
   	<div id="header" class="row">
   		<div class="col-md-12">
-  			<ul class="nav nav-pills">
-  				<li class="nav-item">
-  					<a class="nav-link" href="#">Home</a>
-  				</li>
-  				<li class="nav-item">
-  					<a class="nav-link" href="#">About</a>
-  				</li>
-  				<li class="nav-item">
-  					<a class="nav-link" href="#">Services</a>
-  				</li>
-  				<li class="nav-item">
-  					<a class="nav-link" href="#">Portfolio</a>
-  				</li>
-  				<li class="nav-item">
-  					<a class="nav-link" href="#">Contact</a>
-  				</li>
-  			</ul>
+        <!-- <nav class="navbar-light">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+  				  </li>
+  				  <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav> -->
+        <!-- Image and text -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="https://vectr.com/tmp/aY1SbRW0v/b7raFgKjn.svg?width=640&height=640&select=b7raFgKjnpage0&source=page" width="30" height="30" class="d-inline-block align-top" alt="">
+            Web Dev
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#">Home</a>
+              <a class="nav-item nav-link" href="#">About</a>
+              <a class="nav-item nav-link" href="#">Services</a>
+              <a class="nav-item nav-link" href="#">Portfolio</a>
+              <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </nav>
   		</div>
   	</div>
     <!-- END OF HEADER -->
@@ -38,8 +62,8 @@
   	<div class="row">
 
   		<div class="col-md-12">
-  			<div id="featureOne" class="row">
-  				<div id="featureLrg" class="col-md-8">
+  			<div class="row">
+  				  <div id="featureLrg" class="col-md-8">
             <h2>Websites Personalized For Small Business</h2>
             <!-- <p>
               We design and develop personalized websites with the goal of
@@ -52,8 +76,8 @@
             </p> -->
             <div class="card-group">
               <div class="card">
-                <div class="pngContainer">
-                  <img src="img/iconmonstr-window-21-72.png" alt="speed" class="pngIcon">
+                <div class="svgContainer">
+                  <img src="img/browser-simple.svg" class="svgIcon">
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Websites Made Simple</h5>
@@ -61,8 +85,8 @@
                 </div>
               </div>
               <div class="card">
-                <div class="pngContainer">
-                  <img src="img/iconmonstr-window-21-72.png" alt="speed" class="pngIcon">
+                <div class="svgContainer">
+                  <img src="img/devices-responsive.svg" class="svgIcon">
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Mobile Friendly | Responsive</h5>
@@ -70,8 +94,8 @@
                 </div>
               </div>
               <div class="card">
-                <div class="pngContainer">
-                  <img src="img/iconmonstr-window-21-72.png" alt="speed" class="pngIcon">
+                <div class="svgContainer">
+                  <img src="img/browser-speed.svg" class="svgIcon">
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Optimized for Speed and SEO</h5>
@@ -79,27 +103,27 @@
                 </div>
               </div>
             </div>
-
   				</div>
-  				<div id="featureSml" class="col-md-4">
-            <div class="card">
-              <img src="" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">What Can this do for your business?</h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Social Media Marketing</li>
-                    <li>SEO</li>
-                    <li>Website Maintenance, Security and Backups</li>
-                  </ul>
-                </p>
+            <div id="featureSml" class="col-md-4">
+              <div class="card">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">What Can this do for your business?</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li>Social Media Marketing</li>
+                      <li>SEO</li>
+                      <li>Website Maintenance, Security and Backups</li>
+                    </ul>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+
   			</div>
 
-  			<div id="featureTwo" class="row">
-  				<div id="featureSml" class="col-md-4">
+  			<div class="row">
+  				  <div id="featureSml" class="col-md-4">
             <div class="card">
               <img src="" class="card-img-top" alt="">
               <div class="card-body">
@@ -118,34 +142,31 @@
                 </p>
               </div>
             </div>
-
-
-
   				</div>
-  				<div id="featureLrg" class="col-md-8">
+  				  <div id="featureLrg" class="col-md-8">
             <h2>Advanced Websites, Applications & Projects</h2>
             <div class="card-group">
               <div class="card">
-                <div class="pngContainer">
-                  <img src="img/iconmonstr-window-21-72.png" alt="speed" class="pngIcon">
+                <div class="svgContainer">
+                  <img src="img/cloud-integration.svg" class="svgIcon">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Websites Made Simple</h5>
+                  <h5 class="card-title">3rd Party Integrations</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
               <div class="card">
                 <div class="pngContainer">
-                  <img src="img/iconmonstr-window-21-72.png" alt="speed" class="pngIcon">
+                  <img src="img/code-browser.svg" class="svgIcon">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Optimized for Speed and SEO</h5>
+                  <h5 class="card-title">Custom Projects</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
               </div>
             </div>
   				</div>
-  			</div>
+        </div>
 
   			<div class="jumbotron">
   				<h2>
@@ -181,7 +202,7 @@
              </nav>
   				</div>
   				<div class="col-md-6">
-             <h3>AF|WEBDEV.COM</h3>
+             <h3>AF | WEBDEV.COM</h3>
              <nav class="nav flex-column">
                <a href="mailto:AdrianF.WebDev@gmail.com"class="nav-link" href="#">AdrianF.WebDev@gmail.com</a>
                <a class="nav-link" href="tel:3102921219">(720) 477-0179</a>
