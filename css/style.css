@@ -62,6 +62,17 @@ h2 {
   text-align: center;
 }
 
+#servicesHighlight {
+  background-color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+
 
 .svgIcon {
   width: 65%;
