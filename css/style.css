@@ -1,4 +1,6 @@
-font-family: 'Piazzolla', serif;
+* {
+  font-family: 'Piazzolla', serif;
+}
 
 
 h2 {
@@ -7,6 +9,11 @@ h2 {
 #headCen {
   text-align: center;
   padding: 15px;
+}
+
+.row {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #featureOne, #featureTwo {
