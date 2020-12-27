@@ -5,9 +5,6 @@
 
 h2 {
   text-align: center;
-}
-#headCen {
-  text-align: center;
   padding: 15px;
 }
 
@@ -182,7 +179,7 @@ h2 {
   max-height: 300px;
 }
 
-
+/* ELEMENTS IN CONTACT FORM */
 .tabs {
   display: block;
   display: -webkit-flex;
