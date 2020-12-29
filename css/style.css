@@ -70,6 +70,17 @@ h2 {
   margin-bottom: 10px;
 }
 
+#white-glove {
+  background-color: lightblue;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+
 /* .website-img {
   background-image: linear-gradient(to bottom right, red, yellow);
   min-height: 50px;
