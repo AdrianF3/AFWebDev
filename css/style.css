@@ -8,6 +8,13 @@ h2 {
   padding: 15px;
 }
 
+.textCenter {
+  text-align: center;
+}
+.textRight {
+  text-align: -webkit-right;
+}
+
 .btnStyle {
   color: #000;
   background-color: transparent;
@@ -123,12 +130,13 @@ h2 {
     padding: 1.3rem; }
     .card__details ul {
       list-style: none;
-      width: 80%;
-      margin: 0; }
+      width: 85%;
+      margin: 0;}
       .card__details ul li {
         text-align: center;
         font-size: 1rem;
-        padding: .4rem; }
+        padding: 0.1rem;
+         }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
 
