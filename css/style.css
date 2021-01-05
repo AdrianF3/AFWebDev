@@ -132,7 +132,7 @@ h2 {
 } */
 
 .card__details {
-    padding: 1.3rem; }
+    padding: 2rem; }
     .card__details ul {
       list-style: none;
       width: 85%;
@@ -141,6 +141,7 @@ h2 {
         text-align: center;
         font-size: 1rem;
         padding: 0.1rem;
+        letter-spacing: 0.1rem;
          }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
