@@ -212,8 +212,12 @@ h2 {
 #footer {
   text-align: center;
   padding-top: 10px;
+<<<<<<< Updated upstream
   background-image: url(../img/testdrawing.svg);
   /* background-color: blue; */
+=======
+  background-image: url(../img/test2.svg);
+>>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-position: center;
   min-width: 100px;
