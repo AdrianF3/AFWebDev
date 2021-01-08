@@ -212,7 +212,8 @@ h2 {
 #footer {
   text-align: center;
   padding-top: 10px;
-  background-image: url(../img/testbg.svg);
+  background-image: url(../img/testdrawing.svg);
+  /* background-color: blue; */
   background-repeat: no-repeat;
   background-position: center;
   min-width: 100px;
