@@ -1,5 +1,4 @@
-<svg width="1355" height="256" version="1.1" viewBox="0 0 358.51 67.733" xmlns="http://www.w3.org/2000/svg">
- <path d="m-0.31147 67.453c-15.862-15.896 0.084459-67.368 0.084459-67.368l89.621 0.11021s14.459 70.666 88.385 23.596c27.338-17.406 57.483-23.376 57.483-23.376l123 0.11021v67.239s-274.14 84.294-358.57-0.31147z" fill="none" stroke="#000" stroke-width=".26458px"/>
+<svg version="1.1" viewBox="0 0 358.51 67.733" xmlns="http://www.w3.org/2000/svg">
  <linearGradient id="myGradient" gradientTransform="rotate(90)">
       <stop offset="20%" stop-color="gold" />
       <stop offset="90%" stop-color="red" />

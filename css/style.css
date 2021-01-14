@@ -48,27 +48,18 @@ h2 {
 
 
 #featureSml {
-  /* background-color: red; */
   text-align: center;
   margin-top: auto;
 
 }
 
 #featureLrg {
-  /* background-color: blue; */
   text-align: center;
-  /* margin-top: 2%; */
-
 }
 
 #featureSml li {
   text-align: left;
   padding: 3px;
-}
-
-
-#header a {
-  /* color: white; */
 }
 
 .boldText {
@@ -101,6 +92,23 @@ h2 {
   padding-right: 15px;
   margin-bottom: 10px;
 }
+
+.navStyle {
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,33,121,0.7721463585434174) 7%, rgba(0,212,255,1) 100%);  
+  border-radius: 7px;
+}
+
+.nav-link-style {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  flex-direction: row;
+  padding: .5rem 1rem;
+  /* COPIED FROM DEFAULT BOOTSTRAP */
+  color: black;
+}
+
+
 
 /* .website-img {
   background-image: linear-gradient(to bottom right, red, yellow);
@@ -211,18 +219,9 @@ h2 {
 
 #footer {
   text-align: center;
-  padding-top: 10px;
-  /* background-image: url(../img/testdrawing.svg); */
   background-image: url(../img/testPX.svg);
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 100px;
-  height: auto;
-  max-height: 300px;
-}
-
-#footerSVG {
-  fill: linear-gradient(red, blue, green);
 }
 
 /* MAIN CONTENT */
