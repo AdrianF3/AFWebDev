@@ -219,7 +219,9 @@ h2 {
 
 #footer {
   text-align: center;
-  background-image: url(../img/testPX.svg);
+  background-image: url(../img/bk3.svg);
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-repeat: no-repeat;
   background-position: center;
 }
