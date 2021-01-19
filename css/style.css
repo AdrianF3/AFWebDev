@@ -219,7 +219,8 @@ h2 {
 
 #footer {
   text-align: center;
-  background-image: url(../img/bk3.svg);
+  /* background-image: url(../img/bk3.svg); */
+  background-image: url(../img/afWebDev.svg);
   padding-top: 0px;
   padding-bottom: 0px;
   background-repeat: no-repeat;
