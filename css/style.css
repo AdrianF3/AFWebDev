@@ -94,8 +94,8 @@ h2 {
 }
 
 .navStyle {
-  background: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,33,121,0.7721463585434174) 7%, rgba(0,212,255,1) 100%);
+  /* background: rgb(2,0,36); */
+  /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,33,121,0.7721463585434174) 7%, rgba(0,212,255,1) 100%); */
   border-radius: 7px;
 }
 
@@ -225,6 +225,7 @@ h2 {
   padding-bottom: 0px;
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 /* MAIN CONTENT */
@@ -308,3 +309,17 @@ h2 {
       margin-left: 100%; }
     .tabs .tab-2:last-child [type="radio"]:checked + div {
       margin-left: -100%; }
+
+
+
+/* RESIZE BLOCKS */
+@media screen and (max-width: 767px) {
+  #footer {
+    background-image: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  #footer h3 {
+    visibility: hidden;
+  }
+}
