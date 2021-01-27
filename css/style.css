@@ -34,6 +34,13 @@ h2 {
   padding-bottom: 15px;
 }
 
+.mainSVG {
+  height: auto;
+  width: 75%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 #featureOne, #featureTwo {
   /* min-height: 200px;
   margin: 2px;
