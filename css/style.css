@@ -342,6 +342,9 @@ h2 {
   #footer {
     background-image: none;
   }
+  .mountainSVG {
+    margin-bottom: -105px;
+  }
 }
 @media screen and (min-width: 767px) {
   #footer h3 {
