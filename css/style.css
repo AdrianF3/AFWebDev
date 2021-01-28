@@ -53,19 +53,6 @@ h2 {
   margin-bottom: -100px;
 }
 
-#featureOne, #featureTwo {
-  /* min-height: 200px;
-  margin: 2px;
-  margin-left: 0px;
-  margin-right: 0px;
-  border-radius: 2px;
-  border-style: solid;
-  border-color: black;
-  padding: 2px;
-  background-color: blue; */
-}
-
-
 #featureSml {
   text-align: center;
   margin-top: auto;
@@ -113,8 +100,6 @@ h2 {
 }
 
 .navStyle {
-  /* background: rgb(2,0,36); */
-  /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,33,121,0.7721463585434174) 7%, rgba(0,212,255,1) 100%); */
   border-radius: 7px;
 }
 
@@ -132,37 +117,6 @@ h2 {
   background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%238eb5cd' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   border-bottom: 5px solid;
 }
-
-
-
-/* .website-img {
-  background-image: linear-gradient(to bottom right, red, yellow);
-  min-height: 50px;
-  max-height: 65px;
-}
-.website-img:before {
-    position:absolute; left:-1px; top:-1px; content:'';
-    border-top: 35px solid silver;
-    border-right: 35px solid transparent;
-}
-
-.website-img:after {
-    position:absolute; left:-2px; top:-2px; content:'';
-    border-top: 35px solid white;
-    border-right: 35px solid transparent;
-}
-
-
-.further-img {
-  background-image: linear-gradient(to bottom, red, yellow);
-  min-height: 50px;
-  max-height: 65px;
-}
-.custom-img {
-  background-image: linear-gradient(to bottom left, red, yellow);
-  min-height: 50px;
-  max-height: 65px;
-} */
 
 .card__details {
     padding: 2rem; }
@@ -344,6 +298,9 @@ h2 {
   }
   .mountainSVG {
     margin-bottom: -105px;
+  }
+  .waveSVG {
+    margin-top: -30px;
   }
 }
 @media screen and (min-width: 767px) {
