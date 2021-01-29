@@ -39,11 +39,13 @@ h2 {
   margin-right: 25%;
   margin-top: -25px;
 }
-.mountainSVG {
+.waveflipSVG {
   height: auto;
   width: 110%;
   margin: -15px;
-  margin-bottom: -75px;
+  transform: rotateY(180deg);
+  transform: rotateX(180deg);
+  margin-bottom: -30px;
 }
 
 .waveSVG {
