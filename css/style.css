@@ -48,11 +48,11 @@ h2 {
   margin-bottom: -30px;
 }
 
-.waveSVG {
-  height: auto;
-  width: 110%;
-  margin: -15px;
-  margin-bottom: -100px;
+.mountainSVG {
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+  border-bottom: black 2px solid;
 }
 
 #featureSml {
@@ -299,7 +299,7 @@ h2 {
     background-image: none;
   }
   .mountainSVG {
-    margin-bottom: -105px;
+    height: 150px;
   }
 }
 @media screen and (min-width: 767px) {
