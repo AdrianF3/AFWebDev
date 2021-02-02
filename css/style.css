@@ -107,8 +107,13 @@ h2 {
 
 }
 
-#white-glove {
-  background-color: lightblue;
+.em_pad {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.white-glove {
+  background-color: white;
   border-radius: 5px;
   border-style: solid;
   border-width: thin;
@@ -330,7 +335,8 @@ h2 {
 /* WORK ON PRICING TABLE */
 section.pricing {
 background: #007bff;
-background: linear-gradient(to right, #0062E6, #33AEFF);
+background: linear-gradient(to top, #0062E6, #33AEFF);
+border-radius: 5px;
 }
 
 .pricing .card {
