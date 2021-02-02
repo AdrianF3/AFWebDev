@@ -1,8 +1,7 @@
+/* General Classes & IDs */
 * {
   font-family: 'Piazzolla', serif;
 }
-
-
 h2 {
 }
 
@@ -11,6 +10,11 @@ h2 {
 }
 .textRight {
   text-align: -webkit-right;
+}
+
+.row {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .btnStyle {
@@ -27,10 +31,24 @@ h2 {
   border-color: transparent;
 }
 
-.row {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
+
+/* END General Classes & IDs */
+
+/* Unique CLASSES & IDs */
+
+
+/* END Unique CLASSES & IDs */
+
+
+
+
+
+
+
+
+
+
+
 
 .mainSVG {
   height: auto;
@@ -38,14 +56,6 @@ h2 {
   margin-left: 30%;
   margin-right: 30%;
   margin-top: -25px;
-}
-.waveflipSVG {
-  height: auto;
-  width: 110%;
-  margin: -15px;
-  transform: rotateY(180deg);
-  transform: rotateX(180deg);
-  margin-bottom: -30px;
 }
 
 .mountainSVG {
@@ -58,7 +68,6 @@ h2 {
 #featureSml {
   text-align: center;
   margin-top: auto;
-
 }
 
 #featureLrg {
