@@ -90,6 +90,14 @@ h2 {
   margin-bottom: 10px;
 }
 
+.social_SVG {
+  height: auto;
+  width: 15%;
+  padding: 10px;
+  margin-top: 15px;
+
+}
+
 #white-glove {
   background-color: lightblue;
   border-radius: 5px;
@@ -193,6 +201,10 @@ h2 {
 
 }
 
+.form_Style {
+  color: #000000;
+}
+
 .profile-img img {
   max-height: auto;
   width: 50%;
@@ -221,6 +233,17 @@ h2 {
   box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.footerBottom {
+  padding-top: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  width: 100%;
+}
+.footerBottom p {
+  display: inline;
+  margin: 20%;
+}
 
 .svgIcon {
   width: 65%;
@@ -242,7 +265,7 @@ h2 {
   overflow: hidden; }
   .tabs [class^="tab"] label,
   .tabs [class*=" tab"] label {
-    color: #efedef;
+    color: #000000;
     cursor: pointer;
     display: block;
     font-size: 1.1em;
