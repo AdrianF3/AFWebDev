@@ -7,6 +7,8 @@ $(document).ready(function() {
   for (let i = 0; i < elements.length; i++) {
       elements[i].addEventListener("click", disModal);
   }
+
+
 });
 
 function disModal(evt) {
