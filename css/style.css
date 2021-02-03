@@ -35,7 +35,9 @@ h2 {
 /* END General Classes & IDs */
 
 /* Unique CLASSES & IDs */
-
+#copyright {
+  margin-top: 30px;
+}
 
 /* END Unique CLASSES & IDs */
 
@@ -230,7 +232,6 @@ h2 {
 
 #footer {
   text-align: center;
-  /* background-image: url(../img/bk3.svg); */
   background-image: url(../img/afWebDev.svg);
   padding-top: 0px;
   padding-bottom: 0px;
@@ -253,6 +254,7 @@ h2 {
   color: #000000;
   border-radius: 10px;
   width: 100%;
+  margin-bottom: 20px;
 }
 .footerBottom p {
   display: inline;
@@ -406,7 +408,7 @@ transition: all 0.2s;
     background-image: none;
   }
   .mountainSVG {
-    height: 150px;
+    height: 125px;
   }
 }
 @media screen and (min-width: 767px) {
