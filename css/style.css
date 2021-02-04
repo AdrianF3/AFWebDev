@@ -49,8 +49,14 @@ h2 {
 
 
 
+.portfolioSVG {
+  height: auto;
+  width: 100%;
+}
 
-
+.portfilioCarousel {
+  border-radius: 15px;
+}
 
 
 
