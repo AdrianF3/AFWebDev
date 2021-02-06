@@ -5,6 +5,14 @@
 h2 {
 }
 
+a {
+  color: #424b54;
+}
+
+a:hover {
+  color: #000000;
+}
+
 .textCenter {
   text-align: center;
 }
@@ -23,7 +31,7 @@ h2 {
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 4px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-color: transparent;
 }
 
@@ -43,6 +51,13 @@ h2 {
 .menuImg {
   height: 45px;
   width: auto;
+}
+
+.servicesNext {
+  margin-top: 15px;
+  padding-top: 15px;
+  background-color: rgba(79, 157, 105, 0.75);
+  border-radius: 15px;
 }
 
 /* END Unique CLASSES & IDs */
@@ -346,10 +361,14 @@ h2 {
     .tabs .tab-2:last-child [type="radio"]:checked + div {
       margin-left: -100%; }
 
+
+
 /* WORK ON PRICING TABLE */
 section.pricing {
-background: #007bff;
-background: linear-gradient(to top, #0062E6, #33AEFF);
+/* background: #007bff;
+background: linear-gradient(to top, #0062E6, #33AEFF); */
+background-color: #4f9d69;
+background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 0C6.716 0 0 6.716 0 15c8.284 0 15-6.716 15-15zM0 15c0 8.284 6.716 15 15 15 0-8.284-6.716-15-15-15zm30 0c0-8.284-6.716-15-15-15 0 8.284 6.716 15 15 15zm0 0c0 8.284-6.716 15-15 15 0-8.284 6.716-15 15-15z' fill='%23f3f9d2' fill-opacity='0.06' fill-rule='evenodd'/%3E%3C/svg%3E");
 border-radius: 5px;
 }
 
