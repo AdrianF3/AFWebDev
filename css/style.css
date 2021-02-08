@@ -428,18 +428,54 @@ transition: all 0.2s;
 /* END WORK ON PRICING TABLE */
 
 
-
-/* RESIZE BLOCKS */
-@media screen and (max-width: 767px) {
-  #footer {
-    background-image: none;
-  }
+/*
+MIN SIZE
+ */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
   .mountainSVG {
     height: 125px;
   }
 }
-@media screen and (min-width: 767px) {
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
   #footer h3 {
     visibility: hidden;
   }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/*
+MAX SIZE
+ */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  #footer {
+    background-image: none;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
 }
