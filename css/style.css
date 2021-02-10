@@ -433,9 +433,7 @@ MIN SIZE
  */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .mountainSVG {
-    height: 125px;
-  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -467,6 +465,9 @@ MAX SIZE
 @media (max-width: 767.98px) {
   #footer {
     background-image: none;
+  }
+  .mountainSVG {
+    height: 125px;
   }
 }
 
