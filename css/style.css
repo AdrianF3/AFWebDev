@@ -81,6 +81,13 @@ a:hover {
   margin-right: 27%;
   margin-top: -25px;
 }
+.servicesMainSVG {
+  height: auto;
+  width: 74%;
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: -25px;
+}
 
 .mountainSVG {
   height: 200px;
@@ -411,6 +418,17 @@ font-weight: bold;
 padding: 1rem;
 opacity: 0.7;
 transition: all 0.2s;
+}
+
+.priceBtn {
+  /* custom edits */
+  background-color: #efa00b;
+  border: none;
+}
+
+/* custom addition to pricing */
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #000000;
 }
 
 /* Hover Effects on Card */
