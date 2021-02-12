@@ -504,6 +504,11 @@ MAX SIZE
   .mountainSVG {
     height: 125px;
   }
+  .mainSVG {
+    width: 76%;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
