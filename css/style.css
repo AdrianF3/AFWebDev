@@ -60,6 +60,15 @@ a:hover {
   border-radius: 15px;
 }
 
+.servicesHeader {
+  margin-top: 15px;
+  padding-top: 15px;
+  background-color: rgba(207, 79, 79, 0.35);
+  border-radius: 15px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
 /* END Unique CLASSES & IDs */
 
 
@@ -81,12 +90,11 @@ a:hover {
   margin-right: 27%;
   margin-top: -25px;
 }
+
 .servicesMainSVG {
   height: auto;
-  width: 74%;
-  margin-left: 13%;
-  margin-right: 13%;
-  margin-top: -25px;
+  width: 80%;
+  margin-top: -55px;
 }
 
 .mountainSVG {
@@ -128,6 +136,8 @@ a:hover {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 10px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .social_SVG {
@@ -152,6 +162,8 @@ a:hover {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 10px;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .navbar-expand-lg {
@@ -175,6 +187,7 @@ a:hover {
   background-color: #cf4f4f;
   background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%238eb5cd' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   border-bottom: 5px solid;
+  border-top: 5px solid;
 }
 
 .card__details {
@@ -426,9 +439,13 @@ transition: all 0.2s;
   border: none;
 }
 
+.priceBtn:hover {
+  background-color: #f0c919;
+}
+
 /* custom addition to pricing */
 .btn-primary:not(:disabled):not(.disabled):active {
-  background-color: #000000;
+  background-color: #315c2b;
 }
 
 /* Hover Effects on Card */
