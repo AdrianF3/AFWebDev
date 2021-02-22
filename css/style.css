@@ -44,6 +44,11 @@ a:hover {
 /* END General Classes & IDs */
 
 /* Unique CLASSES & IDs */
+#example-div {
+  border-top: black 5px solid;
+  border-bottom: black 5px solid;
+}
+
 #copyright {
   margin-top: 30px;
 }

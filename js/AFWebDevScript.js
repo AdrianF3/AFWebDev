@@ -1,4 +1,4 @@
-//console.log("running.");
+console.log("running.");
 
 
 // $(document).ready(function() {
@@ -16,3 +16,18 @@
 //   $('#contactModal').modal();
 //   console.log("modal called");
 // }
+
+
+//Automatic Function (event handelers)
+// $(function () {
+//    // your code goes here
+//
+// });
+function ml_fitness() {
+  alert("Matt Lane Example Called");
+}
+
+
+$( "#ml_fitness" ).click(function() {
+  ml_fitness();
+});
