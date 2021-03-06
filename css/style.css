@@ -45,7 +45,11 @@ a:hover {
 
 /* Unique CLASSES & IDs */
 #copyright {
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.servicesWhy {
+  margin-top: 40px;
 }
 
 .menuImg {
@@ -99,9 +103,11 @@ a:hover {
 
 .mountainSVG {
   height: 200px;
-  width: 100%;
+  width: 110%;
   margin-top: 20px;
   border-bottom: black 2px solid;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 #featureSml {
