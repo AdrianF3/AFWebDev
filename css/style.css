@@ -75,8 +75,32 @@ a:hover {
 
 /* END Unique CLASSES & IDs */
 
+.aboutMeC {
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
 
+.aboutMeImg {
+  width: auto;
+  max-height: 270px;
+  /* margin-left: 20%;
+  margin-right: 20px; */
+}
 
+.aboutMeImgLrg {
+  width: auto;
+  max-height: 330px;
+  padding-top: 33px;
+}
+
+.aboutMeText {
+  letter-spacing: .3rem;
+  text-align: center;
+  vertical-align: middle;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  padding-top: 10px;
+}
 
 .portfolioSVG {
   height: auto;
