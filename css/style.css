@@ -40,6 +40,17 @@ a:hover {
   border-color: transparent;
 }
 
+.centered {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  background-color: rgba(108, 103, 80, 0.48);
+  border-radius: 5px;
+  padding: 3px;
+}
+
 
 /* END General Classes & IDs */
 
@@ -83,18 +94,20 @@ a:hover {
 .aboutMeImg {
   width: auto;
   max-height: 270px;
-  /* margin-left: 20%;
-  margin-right: 20px; */
+  margin-left: 20%;
+  margin-right: 20px;
 }
 
 .aboutMeImgLrg {
   width: auto;
   max-height: 330px;
   padding-top: 33px;
+  margin-left: 20%;
+  margin-right: 20px;
 }
 
 .aboutMeText {
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
   text-align: center;
   vertical-align: middle;
   /* margin-left: 5%;
