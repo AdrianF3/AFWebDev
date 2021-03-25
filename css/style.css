@@ -60,12 +60,17 @@ a:hover {
 }
 
 .explainerDiv {
-  
+  color: #ffffff;
+  background-color: #000000;
+  margin: -15px;
 }
 
-.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.navAlign {
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
-.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 3px; box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);}
+
 /* Unique CLASSES & IDs */
 
 
@@ -73,11 +78,48 @@ a:hover {
   margin-top: 50px;
 }
 
+/* BEGIN MLF */
+.mlfNav {
+  background: rgb(34,193,195);
+  margin-bottom: -20px;
+}
+
+.mlfIntro {
+  background: rgb(34,193,195);
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgba(153,180,227,1) 71%, rgba(34,93,195,1) 100%); */
+  font-size: 1.2em;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+
+}
+
 .jumbotron {
   background: rgb(253,187,45);
   background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 47%);
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+}
+
+/* END MLF */
 .servicesWhy {
   margin-top: 40px;
 }
@@ -579,11 +621,18 @@ MAX SIZE
     margin-left: 20%;
     margin-top: -20px;
   }
+  .navAlign {
+    margin-left: 45%;
+    margin-right: 45%;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-
+  .navAlign {
+    margin-left: 45%;
+    margin-right: 45%;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
