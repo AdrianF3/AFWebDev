@@ -53,10 +53,29 @@ a:hover {
 
 
 /* END General Classes & IDs */
+.mlContent {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.3em;
+}
 
+.explainerDiv {
+  
+}
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 3px; box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);}
 /* Unique CLASSES & IDs */
+
+
 #copyright {
   margin-top: 50px;
+}
+
+.jumbotron {
+  background: rgb(253,187,45);
+  background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 47%);
 }
 
 .servicesWhy {
@@ -211,6 +230,7 @@ a:hover {
 
 .navbar-expand-lg {
   /* flex-flow: column; */
+  font-size: 1.2em;
 }
 
 .navStyle {
