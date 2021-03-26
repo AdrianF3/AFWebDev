@@ -53,12 +53,6 @@ a:hover {
 
 
 /* END General Classes & IDs */
-.mlContent {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 1.3em;
-}
-
 .explainerDiv {
   color: #ffffff;
   background-color: #000000;
@@ -79,9 +73,92 @@ a:hover {
 }
 
 /* BEGIN MLF */
+/* BEGIN FOOTER STYLE */
+.color-text {
+    color: #757575 !important
+}
+/*
+button {
+    font-size: calc(12px + (13 - 12) * ((100vw - 360px) / (1600 - 320))) !important;
+    background-color: #2CA6FB !important;
+    padding-left: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-right: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-top: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-bottom: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+} */
+
+footer {
+    color: #caced1 !important
+}
+
+footer li {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.row-1 {
+    background-color: #1E242A !important
+}
+
+.row-2 {
+    background-color: #28323C !important
+}
+/* END FOOTER STYLE */
+
+.mlfFooter {
+  margin-top:-25px;
+}
+
+.mlfNavBG {
+  background: rgb(34,193,195);
+  margin:-20px;
+}
+
 .mlfNav {
   background: rgb(34,193,195);
   margin-bottom: -20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.challengeImg {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.challengeImgDiv {
+  margin: -20px;
+  margin-top: -35px;
+  padding-top: 40px;
+  background: rgb(34,193,195);
+}
+
+.mlfMain {
+  background: rgb(34,193,195);
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgba(153,180,227,1) 71%, rgba(34,93,195,1) 100%); */
+  font-size: 1.2em;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 30px;
+  margin-bottom: -20px;
+  line-height: 2em;
+}
+
+.mlContent {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.3em;
 }
 
 .mlfIntro {
@@ -115,7 +192,6 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 3px;
   box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
 }
 
