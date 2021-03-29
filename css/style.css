@@ -57,6 +57,7 @@ a:hover {
   color: #ffffff;
   background-color: #000000;
   margin: -15px;
+  padding-bottom: 10px;
 }
 
 .navAlign {
@@ -697,18 +698,18 @@ MAX SIZE
     margin-left: 20%;
     margin-top: -20px;
   }
-  .navAlign {
+  /* .navAlign {
     margin-left: 45%;
     margin-right: 45%;
-  }
+  } */
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .navAlign {
-    margin-left: 45%;
-    margin-right: 45%;
-  }
+  /* .navAlign {
+    margin-left: 30%;
+    margin-right: 30%;
+  } */
 }
 
 /* Large devices (desktops, less than 1200px) */
