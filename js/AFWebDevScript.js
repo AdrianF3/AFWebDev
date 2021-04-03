@@ -34,7 +34,7 @@ function metaOverride() {
   console.log(cur_url);
   switch (cur_url) {
     // case 'https://afwebdev.com/services.php':
-    case cur_url.includes("services.php")
+    case cur_url.includes("services.php"):
       console.log("services called.")
       //Change Title
       document.title = servicesTitle;
