@@ -31,7 +31,6 @@ function metaOverride() {
 
   //possibly use switch for logic?
   let cur_url = window.location.href;
-  console.log(cur_url);
   switch (cur_url) {
     // case 'https://afwebdev.com/services.php':
     case cur_url.includes("services.php"):
