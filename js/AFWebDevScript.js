@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 //Begin Function To Override Meta Title and Description
 function metaOverride() {
-  let servicesTitle = "AF Web Dev | Services";
+  let servicesTitle = "AF Web Dev | Service Plans";
   let servicesDescrip = "All plans include custom website design and development for your project or business. Including responsive website development, so every visitor to your website has a great experience.";
   let aboutTitle = "AF Web Dev | About Adrian Fregoso";
   let aboutDescrip = "Responsive Website Development, Colorado based, building custom websites to support your passion projects or small business. Adrian Fregoso | AFWebDev - Plans starting at $25/month.";
@@ -32,7 +32,7 @@ function metaOverride() {
   //possibly use switch for logic?
   let cur_url = window.location.href;
   switch (cur_url) {
-    case 'https://afwebdev.com/services.php':    
+    case 'https://afwebdev.com/services.php':
       console.log("services called.")
       //Change Title
       document.title = servicesTitle;
