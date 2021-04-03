@@ -15,7 +15,7 @@ $(document).ready(function() {
    metaOverride();
 
    //Version #
-   let buildVersion = 0.98;
+   let buildVersion = 0.981;
    console.log("Current Build: " + buildVersion + " | Developed by AFWebDev.com")
 
 });
@@ -41,6 +41,7 @@ function metaOverride() {
       document.querySelector('meta[name="description"]').content = servicesDescrip;
       break;
     case 'https://php.afwebdev.com/about.php':
+      console.log("about called.")
       //Change Title
       document.title = aboutTitle;
       //Change Description
