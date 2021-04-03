@@ -33,14 +33,12 @@ function metaOverride() {
   let cur_url = window.location.href;
   switch (cur_url) {
     case 'https://afwebdev.com/services.php':
-      console.log("services called.")
       //Change Title
       document.title = servicesTitle;
       //Change Description
       document.querySelector('meta[name="description"]').content = servicesDescrip;
       break;
-    case 'https://afwebdev.com/about.php':
-      console.log("about called.")
+    case 'https://afwebdev.com/about.php':      
       //Change Title
       document.title = aboutTitle;
       //Change Description
