@@ -14,6 +14,10 @@ $(document).ready(function() {
    //Call Meta Override
    metaOverride();
 
+   //Version #
+   let buildVersion = 0.98;
+   console.log("Current Build: " + buildVersion + " | Developed by AFWebDev.com")
+
 });
 
 
@@ -29,7 +33,7 @@ function metaOverride() {
   let cur_url = window.location.href;
   console.log(cur_url);
   switch (cur_url) {
-    case 'https://php.afwebdev.com/services.php':
+    case 'https://afwebdev.com/services.php':
       console.log("services called.")
       //Change Title
       document.title = servicesTitle;
