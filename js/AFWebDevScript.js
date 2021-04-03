@@ -15,7 +15,7 @@ $(document).ready(function() {
    metaOverride();
 
    //Version #
-   let buildVersion = 0.981;
+   let buildVersion = 0.982;
    console.log("Current Build: " + buildVersion + " | Developed by AFWebDev.com")
 
 });
@@ -33,14 +33,15 @@ function metaOverride() {
   let cur_url = window.location.href;
   console.log(cur_url);
   switch (cur_url) {
-    case 'https://afwebdev.com/services.php':
+    // case 'https://afwebdev.com/services.php':
+    case cur_url.includes("services.php")
       console.log("services called.")
       //Change Title
       document.title = servicesTitle;
       //Change Description
       document.querySelector('meta[name="description"]').content = servicesDescrip;
       break;
-    case 'https://php.afwebdev.com/about.php':
+    case 'https://afwebdev.com/about.php':
       console.log("about called.")
       //Change Title
       document.title = aboutTitle;
