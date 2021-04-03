@@ -32,8 +32,7 @@ function metaOverride() {
   //possibly use switch for logic?
   let cur_url = window.location.href;
   switch (cur_url) {
-    // case 'https://afwebdev.com/services.php':
-    case cur_url.endsWith("services.php"):
+    case 'https://afwebdev.com/services.php':    
       console.log("services called.")
       //Change Title
       document.title = servicesTitle;
