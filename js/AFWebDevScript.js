@@ -29,7 +29,8 @@ function metaOverride() {
   let cur_url = window.location.href;
   console.log(cur_url);
   switch (cur_url) {
-    case 'http://php.afwebdev.com/services.php':
+    // case 'http://php.afwebdev.com/services.php':
+    case cur_url.includes("services.php"):
       //Change Title
       document.title = servicesTitle;
       //Change Description
