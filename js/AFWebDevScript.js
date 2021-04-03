@@ -16,7 +16,7 @@ $(document).ready(function() {
 
    //Version #
    let buildVersion = 0.982;
-   console.log("Current Build: " + buildVersion + " | Developed by AFWebDev.com")
+   console.log("Current Build: " + buildVersion + " | Developed by AFWebDev.com");
 
 });
 
