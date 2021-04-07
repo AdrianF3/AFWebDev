@@ -16,9 +16,6 @@ a:hover {
 .textCenter {
   text-align: center;
 }
-/* .textRight {
-  text-align: -webkit-right;
-} */
 
 .row {
   padding-top: 15px;
@@ -53,12 +50,6 @@ a:hover {
 
 
 /* END General Classes & IDs */
-/* .explainerDiv {
-  color: #ffffff;
-  background-color: #000000;
-  margin: -15px;
-  padding-bottom: 10px;
-} */
 
 .navAlign {
   margin-left: 25%;
@@ -67,12 +58,6 @@ a:hover {
 
 /* Unique CLASSES & IDs */
 
-
-/* #copyright {
-  margin-top: 50px;
-} */
-
-
 .servicesWhy {
   margin-top: 40px;
 }
@@ -80,13 +65,6 @@ a:hover {
 .menuImg {
   height: 45px;
   width: auto;
-}
-
-.servicesNext {
-  /* margin-top: 15px;
-  padding-top: 15px;
-  background-color: rgba(79, 157, 105, 0.35);
-  border-radius: 15px; */
 }
 
 .servicesHeader {
@@ -99,11 +77,6 @@ a:hover {
 }
 
 /* END Unique CLASSES & IDs */
-
-/* .aboutMeC {
-  margin-left: 10%;
-  margin-right: 10%;
-} */
 
 .aboutMeImg {
   width: auto;
@@ -124,8 +97,6 @@ a:hover {
   letter-spacing: .2rem;
   text-align: center;
   vertical-align: middle;
-  /* margin-left: 5%;
-  margin-right: 5%; */
   padding-top: 10px;
 }
 
@@ -180,10 +151,6 @@ a:hover {
   letter-spacing: 1.3px;
 }
 
-/* #calloutBtnGrp {
-  text-align: center;
-} */
-
 #servicesHighlight {
   background-color: white;
   border-radius: 5px;
@@ -209,19 +176,6 @@ a:hover {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-/*
-.white-glove {
-  background-color: white;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 10px;
-  width: 80%;
-  margin-left: 10%;
-} */
 
 .navbar-expand-lg {
   /* flex-flow: column; */
@@ -231,15 +185,6 @@ a:hover {
 .navStyle {
   border-radius: 7px;
 }
-/*
-.nav-link-style {
-  padding-left: .5rem;
-  padding-right: .5rem;
-  flex-direction: row;
-  padding: .5rem 1rem;
-  COPIED FROM DEFAULT BOOTSTRAP
-  color: black;
-}*/
 
 .serviceBG {
   background-color: #cf4f4f;
@@ -249,18 +194,6 @@ a:hover {
   margin-left: 0%;
   margin-right: 0%;
 }
-
-/* .form_Style {
-  color: #000000;
-} */
-
-/* .profile-img img {
-  height: auto;
-  width: 60%;
-  margin-left: 20%;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
 
 #footer {
   text-align: center;
@@ -273,26 +206,6 @@ a:hover {
 }
 
 /* MAIN CONTENT */
-/* #aboutMe {
-  background-color: lightblue;
-  border-radius: 15px;
-  padding: 15px;
-  box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2);
-} */
-
-/* .footerBottom {
-  padding-top: 20px;
-  background-color: #ffffff;
-  color: #000000;
-  border-radius: 10px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-.footerBottom p {
-  display: inline;
-  margin: 20%;
-} */
-
 .svgIcon {
   width: 65%;
   height: auto;
@@ -300,14 +213,8 @@ a:hover {
   max-height: 300px;
 }
 
-
-
-
-
 /* WORK ON PRICING TABLE */
 section.pricing {
-/* background: #007bff;
-background: linear-gradient(to top, #0062E6, #33AEFF); */
 border-top: 5px solid;
 background-color: #4f9d69;
 background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 0C6.716 0 0 6.716 0 15c8.284 0 15-6.716 15-15zM0 15c0 8.284 6.716 15 15 15 0-8.284-6.716-15-15-15zm30 0c0-8.284-6.716-15-15-15 0 8.284 6.716 15 15 15zm0 0c0 8.284-6.716 15-15 15 0-8.284 6.716-15 15-15z' fill='%23f3f9d2' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
@@ -360,7 +267,6 @@ transition: all 0.2s;
 }
 
 .priceBtn {
-  /* custom edits */
   background-color: #efa00b;
   border: none;
 }
@@ -375,7 +281,6 @@ transition: all 0.2s;
 }
 
 /* Hover Effects on Card */
-
 @media (min-width: 992px) {
   .pricing .card:hover {
     margin-top: -.25rem;
