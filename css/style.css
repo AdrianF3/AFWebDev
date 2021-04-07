@@ -16,9 +16,9 @@ a:hover {
 .textCenter {
   text-align: center;
 }
-.textRight {
+/* .textRight {
   text-align: -webkit-right;
-}
+} */
 
 .row {
   padding-top: 15px;
@@ -40,7 +40,7 @@ a:hover {
   border-color: transparent;
 }
 
-.centered {
+.aboutSmlImg {
   position: absolute;
   top: 85%;
   left: 50%;
@@ -53,25 +53,24 @@ a:hover {
 
 
 /* END General Classes & IDs */
-.explainerDiv {
+/* .explainerDiv {
   color: #ffffff;
   background-color: #000000;
   margin: -15px;
   padding-bottom: 10px;
-}
+} */
 
 .navAlign {
   margin-left: 25%;
   margin-right: 25%;
 }
 
-
 /* Unique CLASSES & IDs */
 
 
-#copyright {
+/* #copyright {
   margin-top: 50px;
-}
+} */
 
 
 .servicesWhy {
@@ -84,10 +83,10 @@ a:hover {
 }
 
 .servicesNext {
-  margin-top: 15px;
+  /* margin-top: 15px;
   padding-top: 15px;
   background-color: rgba(79, 157, 105, 0.35);
-  border-radius: 15px;
+  border-radius: 15px; */
 }
 
 .servicesHeader {
@@ -101,10 +100,10 @@ a:hover {
 
 /* END Unique CLASSES & IDs */
 
-.aboutMeC {
-  /* margin-left: 10%;
-  margin-right: 10%; */
-}
+/* .aboutMeC {
+  margin-left: 10%;
+  margin-right: 10%;
+} */
 
 .aboutMeImg {
   width: auto;
@@ -135,7 +134,7 @@ a:hover {
   width: 100%;
 }
 
-.portfilioCarousel {
+.portfolioCarousel {
   border-radius: 15px;
 }
 
@@ -181,9 +180,9 @@ a:hover {
   letter-spacing: 1.3px;
 }
 
-#calloutBtnGrp {
+/* #calloutBtnGrp {
   text-align: center;
-}
+} */
 
 #servicesHighlight {
   background-color: white;
@@ -210,7 +209,7 @@ a:hover {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
+/*
 .white-glove {
   background-color: white;
   border-radius: 5px;
@@ -222,7 +221,7 @@ a:hover {
   margin-bottom: 10px;
   width: 80%;
   margin-left: 10%;
-}
+} */
 
 .navbar-expand-lg {
   /* flex-flow: column; */
@@ -232,15 +231,15 @@ a:hover {
 .navStyle {
   border-radius: 7px;
 }
-
+/*
 .nav-link-style {
   padding-left: .5rem;
   padding-right: .5rem;
   flex-direction: row;
   padding: .5rem 1rem;
-  /* COPIED FROM DEFAULT BOOTSTRAP */
+  COPIED FROM DEFAULT BOOTSTRAP
   color: black;
-}
+}*/
 
 .serviceBG {
   background-color: #cf4f4f;
@@ -251,18 +250,17 @@ a:hover {
   margin-right: 0%;
 }
 
-.form_Style {
+/* .form_Style {
   color: #000000;
-}
+} */
 
-.profile-img img {
+/* .profile-img img {
   height: auto;
   width: 60%;
   margin-left: 20%;
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
+} */
 
 #footer {
   text-align: center;
@@ -275,14 +273,14 @@ a:hover {
 }
 
 /* MAIN CONTENT */
-#aboutMe {
+/* #aboutMe {
   background-color: lightblue;
   border-radius: 15px;
   padding: 15px;
   box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2);
-}
+} */
 
-.footerBottom {
+/* .footerBottom {
   padding-top: 20px;
   background-color: #ffffff;
   color: #000000;
@@ -293,7 +291,7 @@ a:hover {
 .footerBottom p {
   display: inline;
   margin: 20%;
-}
+} */
 
 .svgIcon {
   width: 65%;
