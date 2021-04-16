@@ -7,7 +7,10 @@ echo "this is the mlf_eventScript.php script";
 // STEP 1 - RECIEVE INPUT
 
 // IMPORTED FROM SHOPIFY
-define('SHOPIFY_APP_SECRET', 'my_shared_secret');
+// define('SHOPIFY_APP_SECRET', 'my_shared_secret'); //Original Line
+  define('SHOPIFY_APP_SECRET', 'd743d783774b907cf9836b1ea022e8c5a28af68d5c5e5877755cd457245c9d3c'); //Attempt #1
+
+
 
 
 // 2. VALIDATE INPUT PER HMAC (OR WHATEVER SHOPIFY POLICY)
@@ -30,6 +33,28 @@ error_log('Webhook verified: '.var_export($verified, true)); //check error.log t
 
 
 // 5. Save data into mlfEvents table, auto updating the ID
+
+
+
+
+
+
+// Other functions or code
+// the message
+$msg = $data;
+
+$msg += "--data added--";
+$msg += $verified;
+$msg += "--verified added--";
+
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg,70);
+
+// send email
+mail("adrianf.webdev@gmail.com","Dev Testing",$msg);
+
+
+
 
 
  ?>
