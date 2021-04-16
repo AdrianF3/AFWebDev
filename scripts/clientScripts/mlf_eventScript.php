@@ -40,6 +40,14 @@ error_log('Webhook verified: '.var_export($verified, true)); //check error.log t
 
 
 // Other functions or code
+
+//MAIL
+$to      = 'adrianf.webdev@gmail.com';
+$subject = 'Dev Testing 03';
+$message = 'This is a test';
+$headers = 'From: webDevTesting@testing.com' . "\r\n" .
+   'Reply-To: Matt@MattLaneFitness' . "\r\n" .
+   'X-Mailer: PHP/' . phpversion();
 // the message
 $msg = $data;
 
@@ -51,7 +59,7 @@ $msg = $msg . "--verified added--";
 $msg = wordwrap($msg,70);
 
 // send email
-mail("adrianf.webdev@gmail.com","Dev Testing01",$msg);
+mail($to,$subject,$msg, $headers);
 
 
 
