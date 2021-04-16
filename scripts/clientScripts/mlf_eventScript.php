@@ -43,15 +43,15 @@ error_log('Webhook verified: '.var_export($verified, true)); //check error.log t
 // the message
 $msg = $data;
 
-$msg += "--data added--";
-$msg += $verified;
-$msg += "--verified added--";
+$msg = .  "--data added--";
+$msg = . $verified;
+$msg = . "--verified added--";
 
 // use wordwrap() if lines are longer than 70 characters
 $msg = wordwrap($msg,70);
 
 // send email
-mail("adrianf.webdev@gmail.com","Dev Testing",$msg);
+mail("adrianf.webdev@gmail.com","Dev Testing01",$msg);
 
 
 
