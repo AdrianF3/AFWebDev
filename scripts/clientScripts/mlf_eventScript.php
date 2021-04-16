@@ -18,10 +18,7 @@ function verify_webhook($data, $hmac_header)
   return hash_equals($hmac_header, $calculated_hmac);
 }
 
-
-
 $hmac_header = $_SERVER['HTTP_X_SHOPIFY_HMAC_SHA256'];
-
 
 // 3. STORE DATA INTO A PHP VARIABLE
 $data = file_get_contents('php://input');
