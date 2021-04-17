@@ -48,8 +48,8 @@ if($verified == 0) {
 // Custom functions
 $function sendMessage($msgData) {
   //MAIL
-  $to      = 'adrianf.webdev@gmail.com';
-  $subject = 'Dev Testing 03';
+  $to = 'adrianf.webdev@gmail.com';
+  $subject = 'Dev Testing 04';
   $message = 'This is a test';
   $headers = 'From: webDevTesting@testing.com' . "\r\n" .
      'Reply-To: Matt@MattLaneFitness' . "\r\n" .
@@ -62,7 +62,7 @@ $function sendMessage($msgData) {
   $msg = wordwrap($msg,70);
 
   // send email
-  mail($to,$subject,$msg, $headers);
+  mail($to,$subject,$msg,$headers);
 }
 
 
