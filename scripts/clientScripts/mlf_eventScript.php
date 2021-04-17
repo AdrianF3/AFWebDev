@@ -8,10 +8,7 @@ echo "this is the mlf_eventScript.php script";
 
 // IMPORTED FROM SHOPIFY
 // define('SHOPIFY_APP_SECRET', 'my_shared_secret'); //Original Line
-  define('SHOPIFY_APP_SECRET', 'd743d783774b907cf9836b1ea022e8c5a28af68d5c5e5877755cd457245c9d3c'); //Attempt #1
-
-
-
+  define('SHOPIFY_APP_SECRET', 'd743d783774b907cf9836b1ea022e8c5a28af68d5c5e5877755cd457245c9d3c');
 
 // 2. VALIDATE INPUT PER HMAC (OR WHATEVER SHOPIFY POLICY)
 
@@ -29,37 +26,44 @@ $verified = verify_webhook($data, $hmac_header);
 error_log('Webhook verified: '.var_export($verified, true)); //check error.log to see the result
 //END SHOPIFY IMPORT
 
+// Check to see if data was properly verified.
+if($verified == 0) {
+  sendMessage($data);
+} else {
+  var $errorMsg = "An error has occured at mlf_eventScript at: " . "TIMESTAMP...";
+  sendMessage($errorMsg);
+}
+
+
 // 4. Open connection to db || failsafe, if db error, email info to my account.
 
 
 // 5. Save data into mlfEvents table, auto updating the ID
 
 
-
-
-
-
 // Other functions or code
 
-//MAIL
-$to      = 'adrianf.webdev@gmail.com';
-$subject = 'Dev Testing 03';
-$message = 'This is a test';
-$headers = 'From: webDevTesting@testing.com' . "\r\n" .
-   'Reply-To: Matt@MattLaneFitness' . "\r\n" .
-   'X-Mailer: PHP/' . phpversion();
-// the message
-$msg = $data;
 
-$msg = $msg .  "--data added--";
-$msg =  $msg . $verified;
-$msg = $msg . "--verified added--";
 
-// use wordwrap() if lines are longer than 70 characters
-$msg = wordwrap($msg,70);
+// Custom functions
+$function sendMessage($msgData) {
+  //MAIL
+  $to      = 'adrianf.webdev@gmail.com';
+  $subject = 'Dev Testing 03';
+  $message = 'This is a test';
+  $headers = 'From: webDevTesting@testing.com' . "\r\n" .
+     'Reply-To: Matt@MattLaneFitness' . "\r\n" .
+     'X-Mailer: PHP/' . phpversion();
+  // the message
+  $msg = $msgData;
+  $msg = $msg .  "<br><br>--data added--";
 
-// send email
-mail($to,$subject,$msg, $headers);
+  // use wordwrap() if lines are longer than 70 characters
+  $msg = wordwrap($msg,70);
+
+  // send email
+  mail($to,$subject,$msg, $headers);
+}
 
 
 
