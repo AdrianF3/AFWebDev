@@ -27,7 +27,7 @@ error_log('Webhook verified: '.var_export($verified, true)); //check error.log t
 //END SHOPIFY IMPORT
 
 // Check to see if data was properly verified.
-if($verified == 0) {
+if($verified = 1) {
   sendMessage($data);
 } else {
   var $errorMsg = "An error has occured at mlf_eventScript at...";
