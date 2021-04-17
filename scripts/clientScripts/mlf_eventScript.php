@@ -1,5 +1,5 @@
 <?php
-echo "this is the mlf_eventScript.php script";
+// echo "this is the mlf_eventScript.php script";
 // THIS PAGE IS DESIGNED FOR MATT LANE FOR THE #MENTAL RESET# EVENT
 // IMPLEMENTED USING SHOPIFY WEBHOOKS TO PROCESS REGISTRATION OF CUSTOMERS
 // AFTER PURCHASE
@@ -8,7 +8,7 @@ echo "this is the mlf_eventScript.php script";
 
 // IMPORTED FROM SHOPIFY
 // define('SHOPIFY_APP_SECRET', 'my_shared_secret'); //Original Line
-  define('SHOPIFY_APP_SECRET', 'd743d783774b907cf9836b1ea022e8c5a28af68d5c5e5877755cd457245c9d3c');
+define('SHOPIFY_APP_SECRET', 'd743d783774b907cf9836b1ea022e8c5a28af68d5c5e5877755cd457245c9d3c');
 
 // 2. VALIDATE INPUT PER HMAC (OR WHATEVER SHOPIFY POLICY)
 
@@ -28,10 +28,10 @@ error_log('Webhook verified: '.var_export($verified, true)); //check error.log t
 
 // Check to see if data was properly verified.
 if($verified = 1) {
-  sendMessage($data);
+  sendMessage();
 } else {
-  var $errorMsg = "An error has occured at mlf_eventScript at...";
-  sendMessage($errorMsg);
+  $errorMsg = "An error has occured at mlf_eventScript at...";
+  sendMessage();
 }
 
 
@@ -46,7 +46,7 @@ if($verified = 1) {
 
 
 // Custom functions
-$function sendMessage($data) {
+$function sendMessage() {
   //MAIL
   $to = 'adrianf.webdev@gmail.com';
   $subject = 'Dev Testing 04';
