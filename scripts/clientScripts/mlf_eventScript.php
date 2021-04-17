@@ -46,7 +46,7 @@ if($verified = 1) {
 
 
 // Custom functions
-$function sendMessage($msgData) {
+$function sendMessage($data) {
   //MAIL
   $to = 'adrianf.webdev@gmail.com';
   $subject = 'Dev Testing 04';
