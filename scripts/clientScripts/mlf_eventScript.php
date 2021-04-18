@@ -29,6 +29,13 @@ sendMessage($data);
 // 4. Convert data to php variables.
 $dataObj = json_decode($data, true);
 
+$orderID = $dataObj->id;
+$orderProductType = $dataObj->product_type;
+$testString = "Test message. The order id is: " . $orderID . " and the product type is: " . $orderProductType;
+sendMessage($testString);
+
+
+
 // 5 . Open connection to db & save Data || failsafe, if db error, email info to my account.
 //begin copy
 $servername = "localhost";
@@ -50,7 +57,7 @@ if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
 } else {
   $msg =  "Error: " . $sql . "<br>" . $conn->error;
-  sendMessage($msg);
+  //sendMessage($msg);
 }
 $conn->close();
 //end copy
@@ -60,7 +67,7 @@ $conn->close();
 function sendMessage($msgData) {
   //MAIL
   $to = 'adrianf.webdev@gmail.com';
-  $subject = 'Dev Testing 06';
+  $subject = 'Dev Testing 07';
   $headers = 'From: webDevTesting@testing.com' . "\r\n" .
      'Reply-To: Matt@MattLaneFitness' . "\r\n" .
      'X-Mailer: PHP/' . phpversion();
