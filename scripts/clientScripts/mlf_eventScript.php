@@ -31,10 +31,10 @@ $dataObj = json_decode($data, true);
 
 $orderID = $dataObj['id'];
 $orderEmail = $dataObj['email'];
-$firstName = $dataObj['customer=>first_name'];
+$firstName = $dataObj['customer->first_name'];
 $lastName = $dataObj['customer=>last_name'];
 $testString = "Test message. The order id is: " . $orderID .
- " and the product type is: " . $orderProductType . "... the full name: " .
+ " and the product type is: " . $orderEmail . "... the full name: " .
  $firstName . " " . $lastName . " and email: " . $orderEmail;
 sendMessage($testString);
 
@@ -71,7 +71,7 @@ $conn->close();
 function sendMessage($msgData) {
   //MAIL
   $to = 'adrianf.webdev@gmail.com';
-  $subject = 'Dev Testing 08';
+  $subject = 'Dev Testing 09';
   $headers = 'From: webDevTesting@testing.com' . "\r\n" .
      'Reply-To: Matt@MattLaneFitness' . "\r\n" .
      'X-Mailer: PHP/' . phpversion();
