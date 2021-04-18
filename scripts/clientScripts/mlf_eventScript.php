@@ -32,7 +32,7 @@ $dataObj = json_decode($data, true);
 $orderID = $dataObj['id'];
 $orderEmail = $dataObj['email'];
 $firstName = $dataObj['customer']['first_name'];
-$lastName = $dataObj['customer=>last_name'];
+$lastName = $dataObj['customer']['last_name'];
 $testString = "Test message. The order id is: " . $orderID .
  " and the email is: " . $orderEmail . "... the full name: " .
  $firstName . " " . $lastName;
