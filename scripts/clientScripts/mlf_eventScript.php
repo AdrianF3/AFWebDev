@@ -24,14 +24,14 @@ $data = file_get_contents('php://input');
 $verified = verify_webhook($data, $hmac_header);
 error_log('Webhook verified: '.var_export($verified, true)); //check error.log to see the result
 //END SHOPIFY IMPORT
-
+sendMessage($data);
 // Check to see if data was properly verified.
-if ($verified = 1) {
-  sendMessage($data);
-} else {
-  var $errorMsg = "An error has occured at mlf_eventScript at...";
-  sendMessage($errorMsg);
-}
+// if ($verified = 1) {
+//   sendMessage($data);
+// } else {
+//   var $errorMsg = "An error has occured at mlf_eventScript at...";
+//   sendMessage($errorMsg);
+// }
 
 // 4. Open connection to db || failsafe, if db error, email info to my account.
 
