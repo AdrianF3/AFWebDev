@@ -27,7 +27,7 @@ error_log('Webhook verified: '.var_export($verified, true)); //check error.log t
 sendMessage($data);
 
 // 4. Convert data to php variables.
-
+$dataObj = json_decode($data, true);
 
 // 5 . Open connection to db & save Data || failsafe, if db error, email info to my account.
 //begin copy
@@ -65,9 +65,7 @@ function sendMessage($msgData) {
      'Reply-To: Matt@MattLaneFitness' . "\r\n" .
      'X-Mailer: PHP/' . phpversion();
   // the message
-  // $msg = $msgData;
-  $msg = var_dump(json_decode($msgData, true));
-  $msg = $msg .  "--verified is equal to: " . $verified;
+  $msg = $msgData;
 
   // use wordwrap() if lines are longer than 70 characters
   $msg = wordwrap($msg,70);
