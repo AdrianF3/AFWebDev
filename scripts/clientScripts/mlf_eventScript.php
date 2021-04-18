@@ -29,9 +29,13 @@ sendMessage($data);
 // 4. Convert data to php variables.
 $dataObj = json_decode($data, true);
 
-$orderID = $dataObj->id;
-$orderProductType = $dataObj['product_type'];
-$testString = "Test message. The order id is: " . $orderID . " and the product type is: " . $orderProductType;
+$orderID = $dataObj['id'];
+$orderEmail = $dataObj['email'];
+$firstName = $dataObj['customer=>first_name'];
+$lastName = $dataObj['customer=>last_name'];
+$testString = "Test message. The order id is: " . $orderID .
+ " and the product type is: " . $orderProductType . "... the full name: " .
+ $firstName . " " . $lastName . " and email: " . $orderEmail;
 sendMessage($testString);
 
 
