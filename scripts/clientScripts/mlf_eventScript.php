@@ -46,7 +46,7 @@ if($verified = 1) {
 
 
 // Custom functions
-function sendMessage() {
+function sendMessage($msgData) {
   //MAIL
   $to = 'adrianf.webdev@gmail.com';
   $subject = 'Dev Testing 04';
@@ -62,7 +62,7 @@ function sendMessage() {
   $msg = wordwrap($msg,70);
 
   // send email
-  mail($to,$subject,$msg,$headers);
+  mail($to,$subject,$message,$headers);
 }
 
 
