@@ -25,31 +25,48 @@ $verified = verify_webhook($data, $hmac_header);
 error_log('Webhook verified: '.var_export($verified, true)); //check error.log to see the result
 //END SHOPIFY IMPORT
 sendMessage($data);
-// Check to see if data was properly verified.
-// if ($verified = 1) {
-//   sendMessage($data);
-// } else {
-//   var $errorMsg = "An error has occured at mlf_eventScript at...";
-//   sendMessage($errorMsg);
-// }
 
-// 4. Open connection to db || failsafe, if db error, email info to my account.
+// 4. Convert data to php variables.
 
 
+// 5 . Open connection to db & save Data || failsafe, if db error, email info to my account.
+//begin copy
+$servername = "localhost";
+$username = "u480905865_af_dev";
+$password = "#8lN|P7Xz";
+$dbname = "u480905865_client_DevDB";
 
-// 5. Save data into mlfEvents table, auto updating the ID
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+//$sql = "INSERT INTO mlf_eventDB (fName, lName, email, orderCreationDate, shopifyOrderID)
+//VALUES ()";
+
+if ($conn->query($sql) === TRUE) {
+  echo "New record created successfully";
+} else {
+  $msg =  "Error: " . $sql . "<br>" . $conn->error;
+  sendMessage($msg);
+}
+$conn->close();
+//end copy
 
 
 // Custom functions
 function sendMessage($msgData) {
   //MAIL
   $to = 'adrianf.webdev@gmail.com';
-  $subject = 'Dev Testing 04';
+  $subject = 'Dev Testing 05';
   $headers = 'From: webDevTesting@testing.com' . "\r\n" .
      'Reply-To: Matt@MattLaneFitness' . "\r\n" .
      'X-Mailer: PHP/' . phpversion();
   // the message
-  $msg = $msgData;
+  // $msg = $msgData;
+  $msg = var_dump(json_decode($msgData, true));
   $msg = $msg .  "--verified is equal to: " . $verified;
 
   // use wordwrap() if lines are longer than 70 characters
