@@ -50,7 +50,7 @@ function sendMessage($msgData) {
      'X-Mailer: PHP/' . phpversion();
   // the message
   $msg = $msgData;
-  $msg = $msg .  "<br><br>--data added--";
+  $msg = $msg .  "--verified is equal to: " . $verified;
 
   // use wordwrap() if lines are longer than 70 characters
   $msg = wordwrap($msg,70);
