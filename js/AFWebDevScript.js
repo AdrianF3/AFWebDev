@@ -15,7 +15,7 @@ $(document).ready(function() {
    metaOverride();
 
    //Version #
-   let buildVersion = 0.988;
+   let buildVersion = 0.989;
    console.log("Current Build: " + buildVersion + " | Developed by AFWebDev.com");
 
 });
