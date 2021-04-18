@@ -4,6 +4,29 @@
 // IMPLEMENTED USING SHOPIFY WEBHOOKS TO PROCESS REGISTRATION OF CUSTOMERS
 // AFTER PURCHASE
 
+
+
+
+// Custom functions
+function sendMessage($msgData) {
+  //MAIL
+  $to = 'adrianf.webdev@gmail.com';
+  $subject = 'Dev Testing 04';
+  $message = 'This is a test';
+  $headers = 'From: webDevTesting@testing.com' . "\r\n" .
+     'Reply-To: Matt@MattLaneFitness' . "\r\n" .
+     'X-Mailer: PHP/' . phpversion();
+  // the message
+  $msg = $msgData;
+  $msg = $msg .  "<br><br>--data added--";
+
+  // use wordwrap() if lines are longer than 70 characters
+  $msg = wordwrap($msg,70);
+
+  // send email
+  mail($to,$subject,$message,$headers);
+}
+
 // STEP 1 - RECIEVE INPUT
 
 // IMPORTED FROM SHOPIFY
@@ -11,7 +34,6 @@
 define('SHOPIFY_APP_SECRET', 'd743d783774b907cf9836b1ea022e8c5a28af68d5c5e5877755cd457245c9d3c');
 
 // 2. VALIDATE INPUT PER HMAC (OR WHATEVER SHOPIFY POLICY)
-
 function verify_webhook($data, $hmac_header)
 {
   $calculated_hmac = base64_encode(hash_hmac('sha256', $data, SHOPIFY_APP_SECRET, true));
@@ -45,25 +67,7 @@ if($verified = 1) {
 
 
 
-// Custom functions
-function sendMessage($msgData) {
-  //MAIL
-  $to = 'adrianf.webdev@gmail.com';
-  $subject = 'Dev Testing 04';
-  $message = 'This is a test';
-  $headers = 'From: webDevTesting@testing.com' . "\r\n" .
-     'Reply-To: Matt@MattLaneFitness' . "\r\n" .
-     'X-Mailer: PHP/' . phpversion();
-  // the message
-  $msg = $msgData;
-  $msg = $msg .  "<br><br>--data added--";
 
-  // use wordwrap() if lines are longer than 70 characters
-  $msg = wordwrap($msg,70);
-
-  // send email
-  mail($to,$subject,$message,$headers);
-}
 
 
 
