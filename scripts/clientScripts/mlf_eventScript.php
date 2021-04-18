@@ -4,29 +4,6 @@
 // IMPLEMENTED USING SHOPIFY WEBHOOKS TO PROCESS REGISTRATION OF CUSTOMERS
 // AFTER PURCHASE
 
-
-
-
-// Custom functions
-function sendMessage($msgData) {
-  //MAIL
-  $to = 'adrianf.webdev@gmail.com';
-  $subject = 'Dev Testing 04';
-  $message = 'This is a test';
-  $headers = 'From: webDevTesting@testing.com' . "\r\n" .
-     'Reply-To: Matt@MattLaneFitness' . "\r\n" .
-     'X-Mailer: PHP/' . phpversion();
-  // the message
-  $msg = $msgData;
-  $msg = $msg .  "<br><br>--data added--";
-
-  // use wordwrap() if lines are longer than 70 characters
-  $msg = wordwrap($msg,70);
-
-  // send email
-  mail($to,$subject,$message,$headers);
-}
-
 // STEP 1 - RECIEVE INPUT
 
 // IMPORTED FROM SHOPIFY
@@ -56,14 +33,31 @@ if($verified = 1) {
   sendMessage($errorMsg);
 }
 
-
 // 4. Open connection to db || failsafe, if db error, email info to my account.
+
 
 
 // 5. Save data into mlfEvents table, auto updating the ID
 
 
-// Other functions or code
+// Custom functions
+function sendMessage($msgData) {
+  //MAIL
+  $to = 'adrianf.webdev@gmail.com';
+  $subject = 'Dev Testing 04';
+  $headers = 'From: webDevTesting@testing.com' . "\r\n" .
+     'Reply-To: Matt@MattLaneFitness' . "\r\n" .
+     'X-Mailer: PHP/' . phpversion();
+  // the message
+  $msg = $msgData;
+  $msg = $msg .  "<br><br>--data added--";
+
+  // use wordwrap() if lines are longer than 70 characters
+  $msg = wordwrap($msg,70);
+
+  // send email
+  mail($to,$subject,$msg,$headers);
+}
 
 
 
