@@ -60,7 +60,7 @@ $conn->close();
 function sendMessage($msgData) {
   //MAIL
   $to = 'adrianf.webdev@gmail.com';
-  $subject = 'Dev Testing 05';
+  $subject = 'Dev Testing 06';
   $headers = 'From: webDevTesting@testing.com' . "\r\n" .
      'Reply-To: Matt@MattLaneFitness' . "\r\n" .
      'X-Mailer: PHP/' . phpversion();
