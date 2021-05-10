@@ -210,6 +210,16 @@ a:hover {
   margin-right: 5%;
 }
 
+.servicesText h4 {
+  padding-top: 1.3em;
+  padding-bottom: 2em;
+}
+
+.servicesText p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 #footer {
   text-align: center;
   background-image: url(../img/afWebDev.svg);
