@@ -212,7 +212,7 @@ a:hover {
 
 .servicesText h4 {
   padding-top: 1.3em;
-  padding-bottom: 2em;
+  /* padding-bottom: 2em; */
 }
 
 .servicesText p {
