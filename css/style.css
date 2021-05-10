@@ -22,6 +22,11 @@ a:hover {
   padding-bottom: 15px;
 }
 
+.servicesDetail {
+  width: 80%
+  margin: 0% 10%;
+}
+
 .btnStyle {
   color: #000;
   background-color: #fff;
