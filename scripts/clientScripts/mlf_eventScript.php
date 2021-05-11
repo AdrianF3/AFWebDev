@@ -73,8 +73,8 @@ while ($isEventPurchase = false) {
     die("Connection failed: " . $conn->connect_error);
   }
   $orderDate = substr($dataObj[created_at], 0, 10);
-  $sql = "INSERT INTO mlf_eventDB (fName, lName, email, orderCreationDate, shopifyOrderID)
-  VALUES ($dataObj['customer']['first_name'], $dataObj['customer']['last_name'], $dataObj['email'], $orderDate, $dataObj['id'])";
+  // $sql = "INSERT INTO mlf_eventDB (fName, lName, email, orderCreationDate, shopifyOrderID)
+  // VALUES ($dataObj['customer']['first_name'], $dataObj['customer']['last_name'], $dataObj['email'], $orderDate, $dataObj['id'])";
 
   if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
