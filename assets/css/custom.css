@@ -9,7 +9,7 @@
 #banner img {
     align-items: center;
     /* margin: 2em 0em 2em 0em; */
-    max-width: 15em;
+    max-width: 18em;
     /* padding: 2em 0em 5em 0em; */
     height: 100%;
 }
@@ -21,3 +21,16 @@
 #header {
     background-color: #fff;
 }
+
+.smallText {
+    font-size: large;
+    padding: 0em;
+}
+
+.darkText {
+    color:darkslategrey;
+    font-size: 1em;
+}
+
+
+/* Custom Timeline Style */
