@@ -1,9 +1,12 @@
+
+
 .imgSVG {
     display: block;
 }
 
-#banner {
-    /* display: block; */
+#header h1 {
+    font-size: 2em;
+    padding: 1em 0 1.5em 0;
 }
 
 #banner img {
@@ -32,5 +35,21 @@
     font-weight: bold;
 }
 
+.codeSVG {
+    height: 4em;
+}
 
-/* Custom Timeline Style */
+.etgOriginal {    
+    height: 4em;
+    border-radius: 15px;    
+}
+
+
+.etgReact {
+    height: 4em;
+}
+
+figure {
+    display: inline-block;
+    padding: 0 .5em 0 .5em;
+}
