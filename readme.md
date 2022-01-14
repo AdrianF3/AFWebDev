@@ -20,11 +20,6 @@ Some SVG graphics sourced from <a href="https://tablericons.com" target="_blank"
 Developer SVG by <a href="https://storyset.com/" target="_blank">StorySet</a>
 
 ## Contact
-Phone: `(720) 477-0179`
-Email: `AdrianF.WebDev@gmail.com`
-Portfolio: `<a href="http://afwebdev.com" target="_blank">AFWebDev.com</a>`
-
-<!-- 
-for bullet points: *
-
- -->
+Phone: (720) 477-0179<br>
+Email: AdrianF.WebDev@gmail.com<br>
+Portfolio: <a href="http://afwebdev.com" target="_blank">AFWebDev.com</a>
