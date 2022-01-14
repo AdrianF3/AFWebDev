@@ -13,6 +13,7 @@
 
 ## How To Use ###
 <p>Visit [AFWebDev.com]: http://afwebdev.com</p>
+<p>Visit <a href="http://afwebev.com">AFWebDev.com</a></p>
 
 ## Credits
 <p>text</p>
