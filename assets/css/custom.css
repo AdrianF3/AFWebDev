@@ -73,5 +73,6 @@ figure {
 .demoInfo {
     background-color: khaki;    
     border-radius: 5px;
+    padding: 1em;
     margin-top: 1em;
 }
