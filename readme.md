@@ -1,15 +1,9 @@
 # AFWebDev 
 
 ## Description
-<p>My Developer Portfolio, showcasing current projects and some former client work.</p>
-
-## Table of Contents
 <p>
-    * How to 
+    This repository is for my developer portfolio, which can be viewed at AFWebDev.com
 </p>
-
-## How to Install or Interact with project
-<p>text</p>
 
 ## How To Use
 <p><a href="http://afwebdev.com" target="_blank">AFWebDev.com</a></p>
@@ -20,6 +14,6 @@ Some SVG graphics sourced from <a href="https://tablericons.com" target="_blank"
 Developer SVG by <a href="https://storyset.com/" target="_blank">StorySet</a>
 
 ## Contact
-Phone: (720) 477-0179<br>
+Phone: <a href="tel:720-477-0179">(720) 477-0179</a><br>
 Email: AdrianF.WebDev@gmail.com<br>
 Portfolio: <a href="http://afwebdev.com" target="_blank">AFWebDev.com</a>
