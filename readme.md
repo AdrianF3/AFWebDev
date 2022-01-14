@@ -19,11 +19,10 @@ The profile theme was adapted from the Arcane theme from <a href="https://html5u
 Some SVG graphics sourced from <a href="https://tablericons.com" target="_blank">TablerIcons</a><br>
 Developer SVG by <a href="https://storyset.com/" target="_blank">StorySet</a>
 
-## How To Contribute
-<p>text</p>
-
-## Table of Contents
-<p>text</p>
+## Contact
+Phone: `(720) 477-0179`
+Email: `AdrianF.WebDev@gmail.com`
+Portfolio: `<a href="http://afwebdev.com" target="_blank">AFWebDev.com</a>`
 
 <!-- 
 for bullet points: *
