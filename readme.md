@@ -1,17 +1,18 @@
 # AFWebDev 
-<p>My Developer Portfolio</p>
 
 ## Description
-<p>text</p>
+<p>My Developer Portfolio, showcasing current projects and some former client work.</p>
 
 ## Table of Contents
-<p>text</p>
+<p>
+    * How to 
+</p>
 
 ## How to Install or Interact with project
 <p>text</p>
 
 ## How To Use ###
-<p>text</p>
+<p>Visit [AFWebDev.com]: http://afwebdev.com</p>
 
 ## Credits
 <p>text</p>
