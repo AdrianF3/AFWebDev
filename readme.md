@@ -13,10 +13,14 @@
 
 ## How To Use ###
 <p>Visit [AFWebDev.com]: http://afwebdev.com</p>
-<p>Visit <a href="http://afwebev.com">AFWebDev.com</a></p>
+<p>Visit <a href="http://afwebdev.com" target="_blank">AFWebDev.com</a></p>
 
 ## Credits
-<p>text</p>
+<p>
+    * The profile theme was adapted from the Arcane theme from <a href="https://html5up.net" target="_blank">HTML5Up.net</a>
+    * Some SVG graphics sourced from <a href="https://tablericons.com" target="_blank">TablerIcons</a>
+    * Developer SVG by <a href="https://storyset.com/" target="_blank">StorySet</a>
+</p>
 
 ## How To Contribute
 <p>text</p>
