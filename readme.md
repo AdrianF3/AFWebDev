@@ -17,9 +17,9 @@
 ## Credits
 <p>
 
-    - The profile theme was adapted from the Arcane theme from <a href="https://html5up.net" target="_blank">HTML5Up.net</a>
-    - Some SVG graphics sourced from <a href="https://tablericons.com" target="_blank">TablerIcons</a>
-    -  Developer SVG by <a href="https://storyset.com/" target="_blank">StorySet</a>
+    The profile theme was adapted from the Arcane theme from <a href="https://html5up.net" target="_blank">HTML5Up.net</a><br>
+    Some SVG graphics sourced from <a href="https://tablericons.com" target="_blank">TablerIcons</a><br>
+    Developer SVG by <a href="https://storyset.com/" target="_blank">StorySet</a>
 
 </p>
 
