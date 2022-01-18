@@ -78,3 +78,11 @@ figure {
     font-size: .9em;
 }
 
+.addSkills {
+    text-align: center;
+    margin: 1.5em 0 1em 0;
+}
+
+.addSkills span {
+    font-weight: 700;
+}
