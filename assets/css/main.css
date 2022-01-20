@@ -3069,6 +3069,7 @@ input, select, textarea {
 				height: 44px;
 				line-height: 44px;
 				box-shadow: 0 4px 0 0 #37c0fb;
+				content: "Adrian Fregoso";
 			}
 
 				#titleBar .title {
@@ -3078,6 +3079,7 @@ input, select, textarea {
 					text-align: center;
 					color: #fff;
 					z-index: 1;
+					
 				}
 
 					#titleBar .title em {
@@ -3094,6 +3096,8 @@ input, select, textarea {
 					top: 0;
 					width: 80px;
 					z-index: 2;
+					/* edit by Adrian Fregoso - to not display menu on mobile */
+					display: none;
 				}
 
 					#titleBar .toggle:before {
